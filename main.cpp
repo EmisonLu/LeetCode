@@ -57,6 +57,7 @@ private:
 
 int main() {
     auto *l1=new ListNode(1);
+    int s;
     while(r->next!= nullptr){
         cout<<r->val;
         tmp=r;
