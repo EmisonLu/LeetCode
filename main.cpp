@@ -56,11 +56,7 @@ private:
 };
 
 int main() {
-    auto *l1=new ListNode(1);
-    auto *l2=new ListNode(3);
-    auto *l3=new ListNode(5);
-    auto *q1=new ListNode(2);
-    auto *q2=new ListNode(4);
+    int i;
     while(r->next!= nullptr){
         cout<<r->val;
         tmp=r;
