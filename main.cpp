@@ -66,4 +66,5 @@ int main() {
         delete tmp;
     }
     int b;
+    int c;
 }
