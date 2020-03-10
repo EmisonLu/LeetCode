@@ -61,19 +61,10 @@ int main() {
     auto *l3=new ListNode(5);
     auto *q1=new ListNode(2);
     auto *q2=new ListNode(4);
-    ListNode *tmp;
-    l1->next=l2;
-    l2->next=l3;
-    q1->next=q2;
-    vector<ListNode*> a={l1,q1};
-    ListNode *r=Solution::mergeKLists(a);
     while(r->next!= nullptr){
         cout<<r->val;
         tmp=r;
         r=r->next;
         delete tmp;
     }
-    cout<<r->val;
-    delete r;
-    return 0;
 }
